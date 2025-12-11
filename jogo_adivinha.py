@@ -23,3 +23,7 @@ if st.button("Chutar número"):
         st.success(f"Filha da mâe, acertoou! kkkk, eu pensei exatamente no {pc}")
     else:
         st.error(f"Se ferrou, eu escolhi {pc} e não {palpite}")
+
+
+#Site do jogo 
+#https://share.streamlit.io/
