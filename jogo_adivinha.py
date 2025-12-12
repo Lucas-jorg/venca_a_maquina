@@ -58,7 +58,7 @@ if st.button("Chutar número"):
     else:
         st.error(f"Se ferrou kkkk, você errou! Eu escolhi {pc} e não {palpite}")
 
-try:
+    try:
         salvar_resultado(nome, resultado)
         st.info("Resultado salvo no banco online ✅")
     except Exception:
